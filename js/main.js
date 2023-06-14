@@ -1,3 +1,7 @@
+
+
+//reviews
+
 let arrowButtons = document.getElementsByClassName("arrow")
 
 let reviews = document.getElementsByClassName("review")
@@ -23,6 +27,75 @@ for(let i = 0; i < arrowButtons.length; i++){
         reviews[4].style.display = "none"
         reviews[5].style.display = "none"
         modus = "one-two-three";
+        }
+    }
+}
+
+//Filters
+
+let allGames  = document.getElementsByClassName("game");
+let filters = document.getElementsByClassName("filter");
+
+window.scrollTo(0,0);
+
+setInterval(function(){
+    document.getElementsByTagName("body")[0].style.overflow = "auto";
+}, 1500)
+
+
+//soulslike filter
+let soulslikeFilter = document.getElementById("checkbox-soulslike");
+soulslikeFilter.onchange = function(){
+    if(soulslikeFilter.checked === true){
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.category === "soulslike"){
+                allGames[i].style.display = "block"
+            }
+        }
+    }
+    else{
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.category === "soulslike"){
+                allGames[i].style.display = "none"
+            }
+        }
+    }
+}
+
+//rpg filter
+let rpgFilter = document.getElementById("checkbox-rpg");
+rpgFilter.onchange = function(){
+    if(rpgFilter.checked === true){
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.category === "rpg"){
+                allGames[i].style.display = "block"
+            }
+        }
+    }
+    else{
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.category === "rpg"){
+                allGames[i].style.display = "none"
+            }
+        }
+    }
+}
+
+//action filter
+let actionFilter = document.getElementById("checkbox-action");
+actionFilter.onchange = function(){
+    if(actionFilter.checked === true){
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.category === "action"){
+                allGames[i].style.display = "block"
+            }
+        }
+    }
+    else{
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.category === "action"){
+                allGames[i].style.display = "none"
+            }
         }
     }
 }
