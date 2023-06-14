@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 2rem;
+    font-family: sans-serif;
+    background: #fff;
+}
+
+header, footer{
+    height: 15rem;
+    width: 100%;
+    background: #f4e4dc;
+    display: flex;
+    list-style: none;
+}
+
+nav{
+    height: 100%;
+    width: 100%;
+}
+
+.navigation{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-right: 10rem;
+}
+
+.navigation div{
+    display: flex;
+    gap: 5rem;
+    align-items: center;
+    font-size: 4rem;
+}
+
+.navigation div li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.navigation div li a:hover{
+    color:grey;
+}
+
+.logo{
+    height: 15rem;
+    padding: 1rem;
+    padding-left: 4rem;
+}
+
+main{
+    padding: 4rem;
+}
+
+.sections{
+    margin-bottom: 10rem;
+}
+
+.section1{
+    height: 75rem;
+    background-image: url(/img/joystick-game-sport-technology_138676-2045.avif);
+    background-size: 100vw 75rem;
+    background-repeat: no-repeat;
+}
+
+.slogan{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 10rem;
+    color: #000000;
+    margin-left: 5rem;
+}
+
+.button1{
+    text-decoration: none;
+    color: #fff;
+    background: #212121;
+    border-radius: 0.1rem;
+    padding: 1.5rem 8rem 1.5rem 8rem;
+    font-size: 5rem;
+}
+
+.button1:hover{
+    background: #313131;
+}
+
+
+.section2{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    padding: 8rem 4rem 4rem 4rem;
+    max-height: 90rem;
+    gap: 5rem;
+}
+
+.top{
+    grid-column: 1/5;
+    grid-row: 1/3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 17rem;
+}
+
+.topImage{
+    height: 130%;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 50%;
+    padding-right: 10rem;
+    font-size: 3rem;
+    gap: 1rem;
+}
+
+.text h2{
+    font-size: 6rem;
+}
+
+.bottom{
+    grid-column: 1/5;
+    grid-row: 3/5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.bottomImages{
+    height: 80%;
+}
+
+
+.section3{
+    display: grid;
+    grid-template-areas: 
+    "block1 block2 block3 block4";
+    padding: 4rem;
+}
+
+.block1, .block2, .block3, .block4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+
+.block1 figure, .block2 figure, .block3 figure, .block4 figure{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    font-size: 2.5rem;
+    gap: 1rem;
+}
+
+.block1 img, .block2 img, .block3 img, .block4 img{
+    height: 50%;
+    width: 50%;
+    object-fit: contain;
+}
+
+.section4{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15rem 1rem 10rem;
+    font-size: 150%;
+    
+}
+
+.section4 figure{
+    width: 50%;
+}
+
+.section5{
+    display: flex;
+    height: auto;
+    padding: 4rem;
+    align-items: center;
+}
+
+.reviews{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 80%;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.arrow{
+    width: 10%;
+    background: white;
+    font-size: 300%;
+    outline: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow:hover{
+    cursor: pointer;
+}
+
+.review{
+    width: 30rem;
+    min-height: 20rem;
+    background: darkred;
+    list-style: none;
+    padding: 4rem;
+    border-radius: 0.5rem;
+    background: white;
+    box-shadow: 0 1rem 1rem 0 rgba(0,0,0,0.2),
+    inset 0 -1rem 1rem -1rem rgba(0,0,0,0.2);
+    position: relative;
+    animation: fadeIn 0.8s;
+}
+
+.review:nth-of-type(4),.review:nth-of-type(5),.review:nth-of-type(6){
+    display: none;
+}
+
+.quote{
+    font-size: 500%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    line-height: 0.5;
+}
+
+.stars{
+    color: gold;
+}
+
+.review p {
+    font-size: 65%;
+    font-style: italic;
+    padding-bottom: 2rem;
+    border-bottom: 0.5rem solid rgba(0,0,0,0.2);
+}
+
+@keyframes fadeIn{
+    from{
+        opacity: 0;
+        filter: blur(10px);
+    }
+    to{
+        opacity: 1;
+        filter: blur(0);
+    }
+}
+
