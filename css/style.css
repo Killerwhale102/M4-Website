@@ -312,11 +312,14 @@ footer nav{
 }
 
 
-/* Producten overzicht */
+
+
+
+
+/* Producten overzicht 1 */
 
 .Productenoverzicht1{
     font-size: 2rem;
-    background: #eee;
     font-family: sans-serif;
     padding: 8rem;
 }
@@ -417,6 +420,11 @@ footer nav{
     inset 0 -1rem 1rem -1rem rgba(0,0,0,0.2);
 }
 
+.game-info1, .game-info2, .game-info3, .game-info4, .game-info5{
+    text-decoration: none;
+    color: black;
+}
+
 .game:hover{
     transform: scale(1.02) translateY(-0.7rem);
     cursor: pointer;
@@ -444,6 +452,49 @@ footer nav{
     align-items: flex-end;
     padding: 2rem 0 1rem 0;
 }
+
+/* Producten overzicht 2 */
+
+.productenoverzicht2{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+
+.productinzicht{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 5rem 10rem 0 20rem;
+    font-size: 150%;
+    gap: 15rem;
+    margin-bottom: 10rem;
+}
+
+.productinzicht figure{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    gap: 2rem;
+}
+
+.productinzicht img{
+    height: 70rem;
+    border-radius: 0.2rem;
+}
+
+.button3{
+    text-decoration: none;
+    color: #fff;
+    background: #212121;
+    border-radius: 0.1rem;
+    font-size: 5rem;
+    margin-top: 10rem;
+    align-self: flex-start;
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+
+
 
 /*GameCard Animation*/
 @keyframes away {
