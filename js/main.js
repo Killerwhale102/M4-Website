@@ -99,3 +99,64 @@ actionFilter.onchange = function(){
         }
     }
 }
+
+
+
+// price filters
+
+//fifteen
+let pricefifteenFilter = document.getElementById("checkbox-price-15");
+pricefifteenFilter.onchange = function(){
+    if(pricefifteenFilter.checked === true){
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.pricerange === "price-15"){
+                allGames[i].style.display = "block"
+            }
+        }
+    }
+    else{
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.pricerange === "price-15"){
+                allGames[i].style.display = "none"
+            }
+        }
+    }
+}
+
+//thirty
+let pricethirtyFilter = document.getElementById("checkbox-price-30");
+pricethirtyFilter.onchange = function(){
+    if(pricethirtyFilter.checked === true){
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.pricerange === "price-30"){
+                allGames[i].style.display = "block"
+            }
+        }
+    }
+    else{
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.pricerange === "price-30"){
+                allGames[i].style.display = "none"
+            }
+        }
+    }
+}
+
+//sixty
+let pricesixtyFilter = document.getElementById("checkbox-price-60");
+pricesixtyFilter.onchange = function(){
+    if(pricesixtyFilter.checked === true){
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.pricerange === "price-60"){
+                allGames[i].style.display = "block"
+            }
+        }
+    }
+    else{
+        for(let i = 0; i < allGames.length; i++){
+            if(allGames[i].dataset.pricerange === "price-60"){
+                allGames[i].style.display = "none"
+            }
+        }
+    }
+}
