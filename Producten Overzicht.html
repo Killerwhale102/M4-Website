@@ -22,45 +22,284 @@
         </nav>
     </header>
     <main class="Productenoverzicht1">
-        <section class="inputs">
-            <div>
-                <input id="checkbox-soulslike" type="checkbox" class="filter" checked>
-                <label for="checkbox-soulslike" class="label">Soulslike</label>
-            </div>
-            <div>
-                <input id="checkbox-rpg" type="checkbox" class="filter" checked>
-                <label for="checkbox-rpg" class="label">RPG</label>
-            </div>
-            <div>
-                <input id="checkbox-action" type="checkbox" class="filter" checked>
-                <label for="checkbox-action" class="label">Action</label>    
-            </div>
+        <section class="input-filters">
+            <section class="inputs">
+                <div>
+                    <input id="checkbox-soulslike" type="checkbox" class="filter" checked>
+                    <label for="checkbox-soulslike" class="label">Soulslike</label>
+                </div>
+                <div>
+                    <input id="checkbox-rpg" type="checkbox" class="filter" checked>
+                    <label for="checkbox-rpg" class="label">RPG</label>
+                </div>
+                <div>
+                    <input id="checkbox-action" type="checkbox" class="filter" checked>
+                    <label for="checkbox-action" class="label">Action</label>    
+                </div>
+            </section>
+            <section class="dropdownbox">
+                <div class="dropdown">
+                    <button class="dropbtn">Dropdown</button>
+                    <div class="dropdown-content">
+                        <input id="checkbox-soulslike" type="checkbox" class="filter" checked>
+                        <label for="checkbox-soulslike" class="label">Soulslike</label>
+                        
+                        <input id="checkbox-rpg" type="checkbox" class="filter" checked>
+                        <label for="checkbox-rpg" class="label">RPG</label>
+
+                        <input id="checkbox-action" type="checkbox" class="filter" checked>
+                        <label for="checkbox-action" class="label">Action</label>
+                    </div>
+                </div>
+            </section>
         </section>
         <ul class="games">
-            <li class="game" data-category="soulslike"><img src="/img/Games/DarkSouls.jpg" alt="Dark Souls remaster cover art - PS4"></li>
-            <li class="game" data-category="rpg"><img src="/img/Games/Skyrim.jpg" alt="Skyrim rerelease number 54 cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/R6S.jpg" alt="Rainbow 6 siege cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/AcMirage.jpg" alt="Assassin's Creed cover art - PS5"></li>
-            <li class="game" data-category="soulslike"><img src="/img/Games/sekiro.jpg" alt="Dark Souls remaster cover art - PS4"></li>
-            <li class="game" data-category="rpg"><img src="/img/Games/thewitcher3.jpg" alt="Skyrim rerelease number 54 cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/gta5.jpg" alt="Rainbow 6 siege cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/spiderman.jpg" alt="Assassin's Creed cover art - PS5"></li>
-            <li class="game" data-category="soulslike"><img src="/img/Games/demonsouls.jpg" alt="Dark Souls remaster cover art - PS4"></li>
-            <li class="game" data-category="rpg"><img src="/img/Games/valhalla.jpg" alt="Skyrim rerelease number 54 cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/starwars.jpg" alt="Rainbow 6 siege cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/doom.jpg" alt="Assassin's Creed cover art - PS5"></li>
-            <li class="game" data-category="soulslike"><img src="/img/Games/nier.jpg" alt="Dark Souls remaster cover art - PS4"></li>
-            <li class="game" data-category="rpg"><img src="/img/Games/origins.jpg" alt="Skyrim rerelease number 54 cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/fallenorder.jpg" alt="Rainbow 6 siege cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/sifu.jpg" alt="Assassin's Creed cover art - PS5"></li>
-            <li class="game" data-category="soulslike"><img src="/img/Games/bloodborne.jpg" alt="Dark Souls remaster cover art - PS4"></li>
-            <li class="game" data-category="rpg"><img src="/img/Games/eldenring.jpg" alt="Skyrim rerelease number 54 cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/rdr2.jpg" alt="Rainbow 6 siege cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/re4.jpg" alt="Assassin's Creed cover art - PS5"></li>
-            <li class="game" data-category="soulslike"><img src="/img/Games/greedfall.jpg" alt="Dark Souls remaster cover art - PS4"></li>
-            <li class="game" data-category="rpg"><img src="/img/Games/cyberpunk.jpg" alt="Skyrim rerelease number 54 cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/dyinglight.jpg" alt="Rainbow 6 siege cover art - PS4"></li>
-            <li class="game" data-category="action"><img src="/img/Games/lastofus.jpg" alt="Assassin's Creed cover art - PS5"></li>
+            <li class="game" data-category="soulslike">
+                <img src="/img/Games/DarkSouls.jpg" alt="Dark Souls remaster cover art - PS4">
+                <div>
+                    <p>
+                        Dark Souls is a 2011 action role-playing game developed by FromSoftware and published by Namco Bandai Games. 
+                        A spiritual successor to FromSoftware's Demon's Souls, the game is the first in the Dark Souls series.
+                    </p>
+                    <h3 class="price">€ 12,00</h3>
+                </div>
+            </li>
+            <li class="game" data-category="rpg">
+                <img src="/img/Games/Skyrim.jpg" alt="Skyrim rerelease number 54 cover art - PS4">
+                <div>
+                    <p>
+                        The Elder Scrolls V: Skyrim is an action role-playing video game developed by Bethesda Game Studios and published by Bethesda Softworks. 
+                        It is the fifth main installment in The Elder Scrolls series, following The Elder Scrolls IV: Oblivion (2006)
+                    </p>
+                    <h3 class="price">€ 16,20</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/R6S.jpg" alt="Rainbow 6 siege cover art - PS4">
+                <div>
+                    <p>
+                        Tom Clancy's Rainbow Six Siege is an online tactical shooter video game developed by Ubisoft Montreal and published by Ubisoft. 
+                        It was released worldwide for PlayStation 4, Windows, and Xbox One on December 1, 2015
+                    </p>
+                    <h3 class="price">€ 7,56</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/AcMirage.jpg" alt="Assassin's Creed mirage cover art - PS5">
+                <div>
+                    <p>
+                        Assassin's Creed Mirage is an upcoming action-adventure game developed by Ubisoft Bordeaux and published by Ubisoft. 
+                        It will be the thirteenth major installment in the Assassin's Creed series and the successor to 2020's Assassin's Creed Valhalla.
+                    </p>
+                    <h3 class="price">€ 59,99</h3>
+                </div>
+            </li>
+            <li class="game" data-category="soulslike">
+                <img src="/img/Games/sekiro.jpg" alt="sekiro cover art - PS4">
+                <div>
+                    <p>
+                        Sekiro: Shadows Die Twice[a] is a 2019 action-adventure game developed by FromSoftware. It was released for PlayStation 4, 
+                        Windows, and Xbox One in March 2019 and for Stadia in October 2020 by FromSoftware in Japan and Activision internationally.
+                    </p>
+                    <h3 class="price">€ 24,99</h3>
+                </div>
+            </li>
+            <li class="game" data-category="rpg">
+                <img src="/img/Games/thewitcher3.jpg" alt="the witcher 3 cover art - PS4">
+                <div>
+                    <p>
+                        The Witcher 3: Wild Hunt[b] is a 2015 action role-playing game developed and published by CD Projekt. 
+                        It is the sequel to the 2011 game The Witcher 2: Assassins of Kings and the third game in The Witcher video game series, 
+                        played in an open world with a third-person perspective.
+                    </p>
+                    <h3 class="price">€ 12,99</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/gta5.jpg" alt="gta5 cover art - PS4">
+                <div>
+                    <p>
+                        Grand Theft Auto V is a 2013 action-adventure game developed by Rockstar North and published by Rockstar Games. 
+                        It is the seventh main entry in the Grand Theft Auto series, following 2008's Grand Theft Auto IV, and the fifteenth instalment overall.
+                    </p>
+                    <h3 class="price">€ 14,99</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/spiderman.jpg" alt="spiderman miles morales cover art - PS5">
+                <div>
+                    <p>
+                        Marvel's Spider-Man: Miles Morales is a 2020 action-adventure video game developed by Insomniac Games and published by Sony Interactive Entertainment. 
+                        Based on the Marvel Comics character Miles Morales.
+                    </p>
+                    <h3 class="price">€ 33,20</h3>
+                </div>
+            </li>
+            <li class="game" data-category="soulslike">
+                <img src="/img/Games/demonsouls.jpg" alt="demonsouls cover art - PS4">
+                <div>
+                    <p>
+                        Demon's Souls is a 2020 action role-playing game developed by Bluepoint Games and published by Sony Interactive Entertainment for the PlayStation 5. 
+                        The game was released as a launch title for the PlayStation 5 in November. It is a remake of Demon's Souls, 
+                        originally developed by FromSoftware for the PlayStation 3 in 2009.
+                    </p>
+                    <h3 class="price">€ 29,54</h3>
+                </div>
+            </li>
+            <li class="game" data-category="rpg">
+                <img src="/img/Games/valhalla.jpg" alt="ac valhalla cover art - PS4">
+                <div>
+                    <p>
+                        Assassin's Creed Valhalla is a 2020 action role-playing video game developed by Ubisoft Montreal and published by Ubisoft. 
+                        It is the twelfth major installment in the Assassin's Creed series, and the successor to 2018's Assassin's Creed Odyssey.
+                    </p>
+                    <h3 class="price">€ 27,68</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/starwars.jpg" alt="starwars fallen order cover art - PS4">
+                <div>
+                    <p>
+                        Star Wars Jedi: Survivor is an action-adventure game developed by Respawn Entertainment and published by Electronic Arts. 
+                        A sequel to Star Wars Jedi: Fallen Order (2019)
+                    </p>
+                    <h3 class="price">€ 69,99</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/doom.jpg" alt="doom eternal cover art - PS5">
+                <div>
+                    <p>
+                        Doom Eternal is a first-person shooter game developed by id Software and published by Bethesda Softworks. 
+                        The sequel to Doom (2016), and the seventh game in the Doom series, it was released on March 20, 2020
+                    </p>
+                    <h3 class="price">€ 11,12</h3>
+                </div>
+            </li>
+            <li class="game" data-category="soulslike">
+                <img src="/img/Games/nier.jpg" alt="nier automata cover art - PS4">
+                <div>
+                    <p>
+                        Nier: Automata[b] is a 2017 action role-playing game developed by PlatinumGames and published by Square Enix. It is a sequel to Nier (2010), 
+                        itself a spin-off of and sequel to the Drakengard series. Nier: Automata was originally released for the PlayStation 4 and Windows via Steam.
+                    </p>
+                    <h3 class="price">€ 6,76</h3>
+                </div>
+            </li>
+            <li class="game" data-category="rpg">
+                <img src="/img/Games/origins.jpg" alt="ac origins release cover art - PS4">
+                <div>
+                    <p>
+                        Assassin's Creed Origins is a 2017 action role-playing video game developed by Ubisoft Montreal and published by Ubisoft. 
+                        It is the tenth major installment in the Assassin's Creed series, following 2015's Assassin's Creed Syndicate.
+                    </p>
+                    <h3 class="price">€ 12,50</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/fallenorder.jpg" alt="jedi fallen order cover art - PS4">
+                <div>
+                    <p>
+                        Star Wars Jedi: Fallen Order is a 2019 action-adventure game developed by Respawn Entertainment and published by Electronic Arts. 
+                        The story is set in the Star Wars universe, five years after Star Wars: Episode III - Revenge of the Sith.
+                    </p>
+                    <h3 class="price">€ 15,00</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/sifu.jpg" alt="sifu cover art - PS5">
+                <div>
+                    <p>
+                        Sifu is a beat 'em up video game developed and published by French studio Sloclap. Set in modern-day China, 
+                        players control the child of a martial arts school's sifu (master) who seeks revenge on those responsible for their father's death.
+                    </p>
+                    <h3 class="price">€ 19,99</h3>
+                </div>
+            </li>
+            <li class="game" data-category="soulslike">
+                <img src="/img/Games/bloodborne.jpg" alt="bloodborne cover art - PS4">
+                <div>
+                    <p>
+                        Bloodborne[b] is a 2015 action role-playing game developed by FromSoftware and published by Sony Computer Entertainment for the PlayStation 4. 
+                        Bloodborne follows the player's character, a Hunter, through the decrepit Gothic, Victorian-era-inspired city of Yharnam.
+                    </p>
+                    <h3 class="price">€ 6,00</h3>
+                </div>
+            </li>
+            <li class="game" data-category="rpg">
+                <img src="/img/Games/eldenring.jpg" alt="eldenring cover art - PS4">
+                <div>
+                    <p>
+                        Elden Ring[a] is a 2022 action role-playing game developed by FromSoftware. 
+                        It was directed by Hidetaka Miyazaki with worldbuilding provided by fantasy writer George R. R. Martin. 
+                        It was released for PlayStation 4, PlayStation 5, Windows, Xbox One, and Xbox Series X/S on February 25 
+                    </p>
+                    <h3 class="price">€ 25,90</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/rdr2.jpg" alt="rdr2 cover art - PS4">
+                <div>
+                    <p>
+                        Red Dead Redemption 2[a] is a 2018 action-adventure game developed and published by Rockstar Games. 
+                        The game is the third entry in the Red Dead series and a prequel to the 2010 game Red Dead Redemption. 
+                        The story is set in a fictionalized representation of the United States in 1899 and follows the exploits of outlaw Arthur Morgan.
+                    </p>
+                    <h3 class="price">€ 50,00</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/re4.jpg" alt="Assassin's Creed cover art - PS5">
+                <div>
+                    <p>
+                        Resident Evil 4[a] is a 2023 survival horror game developed and published by Capcom. 
+                        It is a remake of the 2005 game Resident Evil 4. Players control the US agent Leon S. Kennedy, 
+                        who must save Ashley Graham, the daughter of the United States president, from the mysterious Los Illuminados cult.
+                    </p>
+                    <h3 class="price">€ 59,00</h3>
+                </div>
+            </li>
+            <li class="game" data-category="soulslike">
+                <img src="/img/Games/greedfall.jpg" alt="Dark Souls remaster cover art - PS4">
+                <div>
+                    <p>
+                        GreedFall is an action role-playing game developed by Spiders and published by Focus Home Interactive. 
+                        The game is set in an early 18th century-styled fantasy setting and was released for Microsoft Windows, 
+                        PlayStation 4, and Xbox One on September 10, 2019
+                    </p>
+                    <h3 class="price">€ 6,99</h3>
+                </div>
+            </li>
+            <li class="game" data-category="rpg">
+                <img src="/img/Games/cyberpunk.jpg" alt="Skyrim rerelease number 54 cover art - PS4">
+                <div>
+                    <p>
+                        Cyberpunk 2077 is a 2020 action role-playing video game developed by CD Projekt Red and published by CD Projekt. 
+                        Taking place in Night City, an open world set in the Cyberpunk universe, players assume the role of a customisable mercenary known as V.
+                    </p>
+                    <h3 class="price">€ 11,20</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/dyinglight.jpg" alt="Rainbow 6 siege cover art - PS4">
+                <div>
+                    <p>
+                        Dying Light is a 2015 survival horror video game developed by Techland and published by Warner Bros. Interactive Entertainment. 
+                        The game's story follows an undercover agent named Kyle Crane who is sent to infiltrate a quarantine zone in a Middle-eastern city called Harran.
+                    </p>
+                    <h3 class="price">€ 6,90</h3>
+                </div>
+            </li>
+            <li class="game" data-category="action">
+                <img src="/img/Games/lastofus.jpg" alt="Assassin's Creed cover art - PS5">
+                <div>
+                    <p>
+                        The Last of Us is a 2013 action-adventure game developed by Naughty Dog and published by Sony Computer Entertainment. 
+                        Players control Joel, a smuggler tasked with escorting a teenage girl, Ellie, across a post-apocalyptic United States.
+                    </p>
+                    <h3 class="price">€ 45,50</h3>
+                </div>
+            </li>
         </ul>
     </main>
     <footer>
