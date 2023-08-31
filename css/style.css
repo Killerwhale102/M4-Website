@@ -495,6 +495,47 @@ footer nav{
 
 
 
+/*Cart*/
+
+.slots{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+    padding: 4rem;
+    gap: 4rem;
+}
+
+.slots div{
+    display: flex;
+    justify-content: space-between;
+    width: 52.5%;
+}
+
+.purchase-price{
+    padding-right: 10rem;
+}
+
+.slot{
+    height: 30rem;
+    width: 50vw;
+    box-shadow: 0 2rem 5rem 0 rgba(0, 0, 0, 0.2);
+    margin-bottom: 5rem;
+}
+
+.button4{
+    text-decoration: none;
+    color: #fff;
+    background: #212121;
+    border-radius: 0.1rem;
+    font-size: 5rem;
+    align-self: flex-start;
+    padding: 2rem 5rem 2rem 5rem;
+}
+
+
+
 
 /*GameCard Animation*/
 @keyframes away {
